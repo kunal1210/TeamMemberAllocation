@@ -16,3 +16,21 @@ img {
 .hide {
   display: none;
 }
+
+@media (max-width: 600px) {
+  .card-collection {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .body_wrapper .col-8 {
+    width: 100%;
+  }
+
+  .body_wrapper .col-6 {
+    width: 100%;
+  }
+
+  .body_wrapper .card.m-2 {
+    margin: 0 0 1rem !important;
+  }
+}

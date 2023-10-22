@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-ligh bg-light">
+    <nav className="navbar navbar-expand-lg navbar-ligh bg-light px-2">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <Link className="nav-link" to="/TeamMemberAllocation">
