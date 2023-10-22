@@ -5,7 +5,7 @@ function Nav() {
     <nav className="navbar navbar-expand-lg navbar-ligh bg-light">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link" to="/">
+          <Link className="nav-link" to="/TeamMemberAllocation">
             Home
           </Link>
         </li>
